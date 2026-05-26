@@ -1,0 +1,42 @@
+[
+  {
+    "objectID": "pages_thematiques/energie.html",
+    "href": "pages_thematiques/energie.html",
+    "title": "Fiches énergie",
+    "section": "",
+    "text": "But : lister les fiches énergie dans ce qmd\nmodele_1.html modele_2.html modele_3.html",
+    "crumbs": [
+      "Énergie"
+    ]
+  },
+  {
+    "objectID": "pages_thematiques/mobilite.html",
+    "href": "pages_thematiques/mobilite.html",
+    "title": "Fiches mobilité",
+    "section": "",
+    "text": "But : lister les fiches énergie dans ce qmd\nmodele_1.html modele_2.html modele_3.html",
+    "crumbs": [
+      "Mobilité"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Indicateurs de l’Observatoire des indicateurs",
+    "section": "",
+    "text": "Blabla sur l’ObsindVD, le scope des fiches, etc.",
+    "crumbs": [
+      "Accueil"
+    ]
+  },
+  {
+    "objectID": "pages_thematiques/climat.html",
+    "href": "pages_thematiques/climat.html",
+    "title": "Fiches climat",
+    "section": "",
+    "text": "But : lister les fiches énergie dans ce qmd\n\nAucun indicateur disponible pour le moment.",
+    "crumbs": [
+      "Climat"
+    ]
+  }
+]

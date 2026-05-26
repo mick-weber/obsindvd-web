@@ -1,0 +1,46 @@
+/*-- scss:rules --*/
+
+
+/* Sidebar logo */
+.sidebar-logo {
+  max-width: 50px;
+}
+
+
+h1, h2, h3, h4 {
+  color: #3A862D; /* Replace with your desired color */
+}
+
+.toc.active .header-section-number{
+  color:#3A862D !important;
+}
+
+#TOC .nav-link.active {
+  color: #3A862D!important;
+  border-left: 3px solid #3A862D; // left border for active link
+}
+
+#TOC a.nav-link:hover {
+  color: #3A862D!important;
+}
+
+main .header-section-number{
+  color:#3A862D!important;
+}
+
+a {
+  color: #3A862D;        /* your main link color */
+  text-decoration: none; /* optional: remove underline */
+}
+
+a:hover {
+  color: lighten(#3A862D, 10%);
+}
+
+/* Only bold top-level active TOC links */
+.toc-active > ul > li > a.nav-link.active {
+  font-weight: bold !important;
+}
+
+
+

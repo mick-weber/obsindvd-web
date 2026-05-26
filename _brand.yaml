@@ -1,0 +1,22 @@
+meta:
+  name: Etat de Vaud
+  link: https://www.vd.ch
+color:
+  palette:
+    primary: "#3A862D" 
+    dark-grey: "#222222"        # Dark gray for text
+  background: white             # Set the background color to white
+  foreground: dark-grey         # Dark gray for text color
+  primary: black                # Primary color, used for key elements like headings or links
+  link: '#3A862D'
+  
+logo:
+  small: logo.svg
+
+typography:
+  fonts:
+    - family: Roboto Slab       # Using Jura as the primary font
+      source: google            # Font source is Google Fonts
+    - family: Arial
+  base: Roboto Slab             # Base font for body text
+  headings: Roboto Slab         # Heading font
