@@ -1,12 +1,22 @@
 [
   {
-    "objectID": "pages_thematiques/energie.html",
-    "href": "pages_thematiques/energie.html",
-    "title": "Fiches énergie",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Indicateurs de l’Observatoire des indicateurs de la durabilité",
     "section": "",
-    "text": "But : lister les fiches énergie dans ce qmd\nmodele_1.html modele_2.html modele_3.html",
+    "text": "Cette page regroupe les indicateurs publiés par plusieurs services de l’administration cantonale vaudoise dans le contexte de l’Observatoire des indicateurs de la durabilité dont la coordination est assurée par l’Office de la durabilité et du climat (OCDC).\nLes indicateurs sont mis à disposition sous forme de fiches téléchargeables comprenant des éléments méthodologiques, des graphiques, des tableaux et d’autres informations permettant de contextualiser et d’analyser les phénomènes observés.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndicateurs énergie\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndicateurs mobilité\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndicateurs climat\n\n\n\n\n\n\n\n\n\n\n\nAucun article correspondant",
     "crumbs": [
-      "Énergie"
+      "Accueil"
+    ]
+  },
+  {
+    "objectID": "pages_thematiques/climat.html",
+    "href": "pages_thematiques/climat.html",
+    "title": "Fiches climat",
+    "section": "",
+    "text": "But : lister les fiches énergie dans ce qmd\n\nAucun indicateur disponible pour le moment.",
+    "crumbs": [
+      "Climat"
     ]
   },
   {
@@ -20,21 +30,71 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Indicateurs de l’Observatoire des indicateurs",
+    "objectID": "pages_thematiques/energie.html",
+    "href": "pages_thematiques/energie.html",
+    "title": "Fiches énergie",
     "section": "",
-    "text": "Blabla sur l’ObsindVD, le scope des fiches, etc.",
+    "text": "But : lister les fiches énergie dans ce qmd\nmodele_1.html modele_2.html modele_3.html",
     "crumbs": [
-      "Accueil"
+      "Énergie"
     ]
   },
   {
-    "objectID": "pages_thematiques/climat.html",
-    "href": "pages_thematiques/climat.html",
-    "title": "Fiches climat",
+    "objectID": "themes/energie.html",
+    "href": "themes/energie.html",
+    "title": "Indicateurs énergie",
     "section": "",
-    "text": "But : lister les fiches énergie dans ce qmd\n\nAucun indicateur disponible pour le moment.",
+    "text": "Fiches indicateurs liées à l’énergie publiés par la Direction de l’énergie (DGE-DIREN).\nContact : stat.energie@vd.ch\nmodele_1.html modele_2.html modele_3.html",
+    "crumbs": [
+      "Énergie"
+    ]
+  },
+  {
+    "objectID": "themes/mobilite.html",
+    "href": "themes/mobilite.html",
+    "title": "Indicateurs mobilité",
+    "section": "",
+    "text": "Fiches indicateurs liées à la mobilité publiés par la Direction générale de la mobilité et des routes (DGMR).\nContact : info.dgmr@vd.ch\nmodele_1.html modele_2.html modele_3.html",
+    "crumbs": [
+      "Mobilité"
+    ]
+  },
+  {
+    "objectID": "themes/climat.html",
+    "href": "themes/climat.html",
+    "title": "Indicateurs climat",
+    "section": "",
+    "text": "Fiches indicateurs liées au climat publiés par l’Office cantonal de la durabilité et du climat (OCDC).\nContact : info.durable@vd.ch\n\nAucun indicateur disponible pour le moment.",
+    "crumbs": [
+      "Climat"
+    ]
+  },
+  {
+    "objectID": "themes/2_mobilite.html",
+    "href": "themes/2_mobilite.html",
+    "title": "Indicateurs mobilité",
+    "section": "",
+    "text": "Fiches indicateurs liées à la mobilité publiées par la Direction générale de la mobilité et des routes (DGMR).\nContact : info.dgmr@vd.ch\n\n\nmodele_1.html\n\n\nmodele_2.html\n\n\nmodele_3.html",
+    "crumbs": [
+      "Mobilité"
+    ]
+  },
+  {
+    "objectID": "themes/1_energie.html",
+    "href": "themes/1_energie.html",
+    "title": "Indicateurs énergie",
+    "section": "",
+    "text": "Fiches indicateurs liées à l’énergie publiées par la Direction de l’énergie (DGE-DIREN).\nContact : stat.energie@vd.ch\n\n\nmodele_1.html\n\n\nmodele_2.html\n\n\nmodele_3.html",
+    "crumbs": [
+      "Énergie"
+    ]
+  },
+  {
+    "objectID": "themes/3_climat.html",
+    "href": "themes/3_climat.html",
+    "title": "Indicateurs climat",
+    "section": "",
+    "text": "Fiches indicateurs liées au climat publiées par l’Office cantonal de la durabilité et du climat (OCDC).\nContact : info.durable@vd.ch\n\nAucun indicateur disponible pour le moment.",
     "crumbs": [
       "Climat"
     ]

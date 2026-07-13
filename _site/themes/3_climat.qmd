@@ -1,0 +1,42 @@
+---
+title: "Indicateurs climat"
+---
+
+Fiches indicateurs liées au climat publiées par l'Office cantonal de la durabilité et du climat (OCDC).
+
+Contact : [info.durable@vd.ch](mailto:info.durable@vd.ch)
+
+```{r}
+#| echo: false
+#| results: asis
+
+# directory containing the HTML files
+html_dir <- "climat"
+
+# list all files in the directory
+files <- list.files(
+  path = html_dir,
+  recursive = FALSE,
+  full.names = FALSE
+)
+
+if (length(files) == 0) {
+  cat("<p><em>Aucun indicateur disponible pour le moment.</em></p>\n")
+} else {
+  
+  cat("<ul>\n")
+
+  for (f in sort(files)) {
+    cat(sprintf(
+      '<li><a href="%s/%s" target="_blank" rel="noopener">%s</a></li>\n',
+      html_dir,
+      f,
+      f
+    ))
+  }
+
+  cat("</ul>\n")
+}
+```
+
+

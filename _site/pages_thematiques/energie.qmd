@@ -1,0 +1,36 @@
+---
+title: "Fiches énergie"
+---
+
+But : lister les fiches énergie dans ce qmd
+
+
+```{r}
+#| echo: false
+#| results: asis
+
+# directory containing the HTML files
+html_dir <- "energie"
+
+# list all files in the directory
+files <- list.files(
+  path = html_dir,
+  recursive = FALSE,
+  full.names = FALSE
+)
+
+if (length(files) == 0) {
+  cat("<p><em>Aucun indicateur disponible pour le moment.</em></p>")
+} else {
+  for (f in sort(files)) {
+    cat(sprintf(
+      '<a href="%s/%s" target="_blank" rel="noopener">%s</a><br>\n',
+      html_dir,
+      f,
+      f
+    ))
+  }
+}
+```
+
+

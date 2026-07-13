@@ -12,11 +12,3 @@ color:
   
 logo:
   small: logo.svg
-
-typography:
-  fonts:
-    - family: Roboto Slab       # Using Jura as the primary font
-      source: google            # Font source is Google Fonts
-    - family: Arial
-  base: Roboto Slab             # Base font for body text
-  headings: Roboto Slab         # Heading font

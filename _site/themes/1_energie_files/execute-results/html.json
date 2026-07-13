@@ -1,0 +1,17 @@
+{
+  "hash": "bfd6707b86801bb998d01dc931f9dda8",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Indicateurs énergie\"\n---\n\nFiches indicateurs liées à l'énergie publiées par la Direction de l'énergie (DGE-DIREN).\n\nContact : [stat.energie@vd.ch](mailto:stat.energie@vd.ch)\n\n\n<ul>\n<li>energie/modele_1.htmlblank\" rel=\"noopener\">modele_1.html</a></li>\n<li>energie/modele_2.htmlblank\" rel=\"noopener\">modele_2.html</a></li>\n<li>energie/modele_3.htmlblank\" rel=\"noopener\">modele_3.html</a></li>\n</ul>\n\n\n",
+    "supporting": [
+      "1_energie_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

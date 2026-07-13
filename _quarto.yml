@@ -1,13 +1,13 @@
 project:
   type: website
   resources:
-    - fiches/
+    - themes/
 
 website:
-  title: "Indicateurs de l'Observatoire des indicateurs"
+  title: "Observatoire des indicateurs de la durabilité"
 
   sidebar:
-    title: Observatoire des indicateurs
+    title: Observatoire des indicateurs de la durabilité
     style: docked
     search: true
     contents:
@@ -17,25 +17,19 @@ website:
       - text: "---"
         
       - text: "Énergie"
-        href: pages_thematiques/energie.qmd
+        href: themes/1_energie.qmd
+                
+      - text: "Mobilité"
+        href: themes/2_mobilite.qmd
         
       - text: "Climat"
-        href: pages_thematiques/climat.qmd
-        
-      - text: "Mobilité"
-        href: pages_thematiques/mobilite.qmd
+        href: themes/3_climat.qmd
+
 
           
   search: 
     location: navbar
     type: textbox
-    
-  announcement: 
-     icon: info-circle
-     dismissable: true
-     content: "**Important** - Site déployé à l'aide de Quarto pour une maquette ObsInd"
-     type: primary
-     position: below-navbar
      
 format:
   html:
@@ -45,6 +39,6 @@ format:
       - styles.scss
     toc: true
 
-
-
-
+lang: fr
+language: 
+  search-text-placeholder: Rechercher
