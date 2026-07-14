@@ -1,14 +1,18 @@
 ---
 title: "Indicateurs climat"
+description: "Fiches indicateurs liées au climat publiées par l'Office cantonal de la durabilité et du climat (OCDC)."
 ---
-
-Fiches indicateurs liées au climat publiées par l'Office cantonal de la durabilité et du climat (OCDC).
 
 Contact : [info.durable@vd.ch](mailto:info.durable@vd.ch)
 
 ```{r}
 #| echo: false
 #| results: asis
+#| warning: false
+
+library(dplyr)
+library(purrr)
+library(stringr)
 
 # directory containing the HTML files
 html_dir <- "climat"
@@ -17,26 +21,37 @@ html_dir <- "climat"
 files <- list.files(
   path = html_dir,
   recursive = FALSE,
-  full.names = FALSE
+  full.names = TRUE
 )
+
 
 if (length(files) == 0) {
   cat("<p><em>Aucun indicateur disponible pour le moment.</em></p>\n")
 } else {
   
   cat("<ul>\n")
-
-  for (f in sort(files)) {
+  
+  walk(files, \(file) {
+    
+    file_id <- basename(file) |> 
+      str_extract("^IND_\\d{2}\\.\\d{2}.\\d{2}.\\d{2}")
+    
+    title <- readLines(file, n = 30) |> 
+      str_c(collapse = "\n") |> 
+      str_extract(pattern = "(?<=<title>).*?(?=</title>)")
+    
     cat(sprintf(
-      '<li><a href="%s/%s" target="_blank" rel="noopener">%s</a></li>\n',
-      html_dir,
-      f,
-      f
+      '<li><a href=%s target="_blank" rel="noopener">%s (%s)</a></li>\n',
+      file,
+      title,
+      file_id
     ))
-  }
+  })
 
   cat("</ul>\n")
 }
+
+
 ```
 
 

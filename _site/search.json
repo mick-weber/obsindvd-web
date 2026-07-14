@@ -4,69 +4,9 @@
     "href": "index.html",
     "title": "Indicateurs de l’Observatoire des indicateurs de la durabilité",
     "section": "",
-    "text": "Cette page regroupe les indicateurs publiés par plusieurs services de l’administration cantonale vaudoise dans le contexte de l’Observatoire des indicateurs de la durabilité dont la coordination est assurée par l’Office de la durabilité et du climat (OCDC).\nLes indicateurs sont mis à disposition sous forme de fiches téléchargeables comprenant des éléments méthodologiques, des graphiques, des tableaux et d’autres informations permettant de contextualiser et d’analyser les phénomènes observés.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndicateurs énergie\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndicateurs mobilité\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndicateurs climat\n\n\n\n\n\n\n\n\n\n\n\nAucun article correspondant",
+    "text": "Cette page regroupe les indicateurs publiés par plusieurs services de l’administration cantonale vaudoise dans le contexte de l’Observatoire des indicateurs de la durabilité dont la coordination est assurée par l’Office de la durabilité et du climat (OCDC).\nLes indicateurs sont mis à disposition sous forme de fiches téléchargeables comprenant des éléments méthodologiques, des graphiques, des tableaux et d’autres informations permettant de contextualiser et d’analyser les phénomènes observés.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndicateurs énergie\n\n\nFiches indicateurs liées à l’énergie publiées par la Direction de l’énergie (DGE-DIREN)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndicateurs mobilité\n\n\nFiches indicateurs liées à la mobilité publiées par la Direction générale de la mobilité et des routes (DGMR).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndicateurs climat\n\n\nFiches indicateurs liées au climat publiées par l’Office cantonal de la durabilité et du climat (OCDC).\n\n\n\n\n\n\n\n\nAucun article correspondant",
     "crumbs": [
       "Accueil"
-    ]
-  },
-  {
-    "objectID": "pages_thematiques/climat.html",
-    "href": "pages_thematiques/climat.html",
-    "title": "Fiches climat",
-    "section": "",
-    "text": "But : lister les fiches énergie dans ce qmd\n\nAucun indicateur disponible pour le moment.",
-    "crumbs": [
-      "Climat"
-    ]
-  },
-  {
-    "objectID": "pages_thematiques/mobilite.html",
-    "href": "pages_thematiques/mobilite.html",
-    "title": "Fiches mobilité",
-    "section": "",
-    "text": "But : lister les fiches énergie dans ce qmd\nmodele_1.html modele_2.html modele_3.html",
-    "crumbs": [
-      "Mobilité"
-    ]
-  },
-  {
-    "objectID": "pages_thematiques/energie.html",
-    "href": "pages_thematiques/energie.html",
-    "title": "Fiches énergie",
-    "section": "",
-    "text": "But : lister les fiches énergie dans ce qmd\nmodele_1.html modele_2.html modele_3.html",
-    "crumbs": [
-      "Énergie"
-    ]
-  },
-  {
-    "objectID": "themes/energie.html",
-    "href": "themes/energie.html",
-    "title": "Indicateurs énergie",
-    "section": "",
-    "text": "Fiches indicateurs liées à l’énergie publiés par la Direction de l’énergie (DGE-DIREN).\nContact : stat.energie@vd.ch\nmodele_1.html modele_2.html modele_3.html",
-    "crumbs": [
-      "Énergie"
-    ]
-  },
-  {
-    "objectID": "themes/mobilite.html",
-    "href": "themes/mobilite.html",
-    "title": "Indicateurs mobilité",
-    "section": "",
-    "text": "Fiches indicateurs liées à la mobilité publiés par la Direction générale de la mobilité et des routes (DGMR).\nContact : info.dgmr@vd.ch\nmodele_1.html modele_2.html modele_3.html",
-    "crumbs": [
-      "Mobilité"
-    ]
-  },
-  {
-    "objectID": "themes/climat.html",
-    "href": "themes/climat.html",
-    "title": "Indicateurs climat",
-    "section": "",
-    "text": "Fiches indicateurs liées au climat publiés par l’Office cantonal de la durabilité et du climat (OCDC).\nContact : info.durable@vd.ch\n\nAucun indicateur disponible pour le moment.",
-    "crumbs": [
-      "Climat"
     ]
   },
   {
@@ -74,7 +14,7 @@
     "href": "themes/2_mobilite.html",
     "title": "Indicateurs mobilité",
     "section": "",
-    "text": "Fiches indicateurs liées à la mobilité publiées par la Direction générale de la mobilité et des routes (DGMR).\nContact : info.dgmr@vd.ch\n\n\nmodele_1.html\n\n\nmodele_2.html\n\n\nmodele_3.html",
+    "text": "Contact : info.dgmr@vd.ch\n\n\nTitre de la fiche suffisamment long pour être réaliste, vraiment réaliste (NA)\n\n\nTitre de la fiche suffisamment long pour être réaliste, vraiment réaliste (NA)\n\n\nTitre de la fiche suffisamment long pour être réaliste, vraiment réaliste (NA)",
     "crumbs": [
       "Mobilité"
     ]
@@ -84,7 +24,7 @@
     "href": "themes/1_energie.html",
     "title": "Indicateurs énergie",
     "section": "",
-    "text": "Fiches indicateurs liées à l’énergie publiées par la Direction de l’énergie (DGE-DIREN).\nContact : stat.energie@vd.ch\n\n\nmodele_1.html\n\n\nmodele_2.html\n\n\nmodele_3.html",
+    "text": "Contact : stat.energie@vd.ch\n\n\nConsommation finale d’énergie (IND_08.01.01.01)\n\n\nConsommation finale d’électricité, Vaud (IND_08.01.02.01)\n\n\nConsommation et besoins théoriques pour la chaleur des bâtiments (IND_08.01.03.02)\n\n\nProduction électrique de sources renouvelables et non renouvelables (IND_08.02.02.01)\n\n\nProduction thermique de sources renouvelables (IND_08.02.03.02)\n\n\nProduction électrique de source solaire (IND_08.02.05.11)\n\n\nProduction thermique de source solaire, Vaud (IND_08.02.05.12)\n\n\nProduction électrique de source éolienne, Vaud (IND_08.02.05.21)\n\n\nProduction électrique de source hydraulique, Vaud (IND_08.02.05.31)\n\n\nProduction énergétique de source bois-énergie (IND_08.02.05.40)\n\n\nProduction thermique à partir de la chaleur ambiante (IND_08.02.05.62)\n\n\nProduction énergétique à partir de biomasse agricole (IND_08.02.05.71)\n\n\nProduction énergétique par déchets incinérables (IND_08.02.05.72)\n\n\nProduction énergétique par déchets méthanisables (IND_08.02.05.73)\n\n\nTaux de couverture électrique (IND_08.04.02.01)\n\n\nBâtiments selon étiquette-énergie de l’enveloppe et période de construction, Vaud (IND_08.05.02.01)\n\n\nGrands consommateurs engagés dans une démarche de réduction de la consommation d’énergie, Vaud (IND_08.05.02.02)\n\n\nSubventions dans le cadre du Programme Bâtiments (IND_08.05.03.01)\n\n\nSubventions pour rénovation partielle ou globale du bâtiment (IND_08.05.03.02)\n\n\nSubventions pour remplacement d’un chauffage à combustible fossile ou électrique (IND_08.05.03.04)\n\n\nSubventions pour l’établissement d’un audit énergétique CECB®Plus (IND_08.05.03.06)\n\n\nSubventions pour l’installation d’infrastructures de recharge pour véhicules électriques (IND_08.05.03.21)\n\n\nEmissions territoriales de CO2 liées à l’énergie (IND_08.06.01.01)",
     "crumbs": [
       "Énergie"
     ]
@@ -94,7 +34,7 @@
     "href": "themes/3_climat.html",
     "title": "Indicateurs climat",
     "section": "",
-    "text": "Fiches indicateurs liées au climat publiées par l’Office cantonal de la durabilité et du climat (OCDC).\nContact : info.durable@vd.ch\n\nAucun indicateur disponible pour le moment.",
+    "text": "Contact : info.durable@vd.ch\n\nAucun indicateur disponible pour le moment.",
     "crumbs": [
       "Climat"
     ]

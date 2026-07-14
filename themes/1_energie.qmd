@@ -1,8 +1,8 @@
 ---
 title: "Indicateurs énergie"
----
+description: "Fiches indicateurs liées à l'énergie publiées par la Direction de l'énergie (DGE-DIREN)"
 
-Fiches indicateurs liées à l'énergie publiées par la Direction de l'énergie (DGE-DIREN).
+---
 
 Contact : [stat.energie@vd.ch](mailto:stat.energie@vd.ch)
 
@@ -10,6 +10,11 @@ Contact : [stat.energie@vd.ch](mailto:stat.energie@vd.ch)
 ```{r}
 #| echo: false
 #| results: asis
+#| warning: false
+
+library(dplyr)
+library(purrr)
+library(stringr)
 
 # directory containing the HTML files
 html_dir <- "energie"
@@ -18,26 +23,37 @@ html_dir <- "energie"
 files <- list.files(
   path = html_dir,
   recursive = FALSE,
-  full.names = FALSE
+  full.names = TRUE
 )
+
 
 if (length(files) == 0) {
   cat("<p><em>Aucun indicateur disponible pour le moment.</em></p>\n")
 } else {
   
   cat("<ul>\n")
-
-  for (f in sort(files)) {
+  
+  walk(files, \(file) {
+    
+    file_id <- basename(file) |> 
+      str_extract("^IND_\\d{2}\\.\\d{2}.\\d{2}.\\d{2}")
+    
+    title <- readLines(file, n = 30) |> 
+      str_c(collapse = "\n") |> 
+      str_extract(pattern = "(?<=<title>).*?(?=</title>)")
+    
     cat(sprintf(
-      '<li><a href="%s/%s" target="_blank" rel="noopener">%s</a></li>\n',
-      html_dir,
-      f,
-      f
+      '<li><a href=%s target="_blank" rel="noopener">%s (%s)</a></li>\n',
+      file,
+      title,
+      file_id
     ))
-  }
+  })
 
   cat("</ul>\n")
 }
+
+
 ```
 
 
